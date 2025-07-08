@@ -26,7 +26,7 @@ body {
     flex-flow: row wrap;
     background-color: var(--cor02);
     height: 100vh;
-    width: 1010vw;
+    width: 100vw;
 }
 /*MARCAS INÍCIO*/
 .marcas {
