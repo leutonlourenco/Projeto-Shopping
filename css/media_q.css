@@ -1,0 +1,52 @@
+
+
+@media screen and (min-width:705px) and (max-width: 990px){
+   main {
+    width: 100vw;
+    display: flex;
+    flex-flow: row wrap;
+   }
+   .marcas {
+    
+   }
+   .promocao {
+    display: flex;
+    flex-flow: row nowrap;
+   }
+   div.partI {
+    width: 50vw;
+    height: 420px;
+   }
+   div.parI img {
+    height: 490px;
+    margin-bottom: 40px;
+   }
+   div.partII {
+    width: 50vw;
+   }
+   .y-titulo {
+    margin-left: 80px;
+    width: 50vw;
+   }
+   .young {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+   }
+   div.y-one {
+    width: 35vw;
+    margin-right: 120px;
+    margin-left: -15px;
+   }
+   div.y-two {
+    display: flex;
+    margin-top: 161px;
+    width: 35vw;
+   }
+   .young img {
+    height: 250px;
+   }
+}
+@media screen and (min-width: 1020px) {
+
+}
