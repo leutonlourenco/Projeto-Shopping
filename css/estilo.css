@@ -26,7 +26,8 @@ main {
 }
 /*BRANDS*/
 .brands {
-    width: 100vw;
+    object-fit: cover;
+    min-width: 100vw;
     display: flex;
     background-color: var(--cor01);
     height: 4rem;
@@ -45,14 +46,14 @@ main {
 
 /*SALE*/
 .sale {
+    object-fit: cover;
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--cor05);
-    width: 100vw;
+    min-width: 100vw;
 }
 .sale_text {
     display: flex;
-    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color: var(--cor05);
@@ -123,6 +124,7 @@ main {
 
 /*YOUNG*/
 .young {
+    object-fit: cover;
     min-width: 100vw;
     display: flex;
     flex-direction: column;
@@ -141,6 +143,7 @@ main {
 }
 
 .young_card {
+    object-fit: cover;
     width: 100vw;
     display: flex;
     flex-direction: column;
