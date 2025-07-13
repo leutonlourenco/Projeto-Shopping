@@ -18,9 +18,10 @@
 }
 body {
     overflow-x: hidden;
+    min-width: 100%;
 }
 main {
-    object-fit: cover;
+    object-fit: contain;
     display: flex;
     flex-flow: row wrap;
     height: 100vh;
@@ -28,7 +29,7 @@ main {
 }
 /*BRANDS*/
 .brands {
-    object-fit: cover;
+    object-fit: contain;
     width: 100%;
     display: flex;
     background-color: var(--cor01);
