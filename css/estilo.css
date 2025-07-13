@@ -20,6 +20,7 @@ body {
     overflow-x: hidden;
 }
 main {
+    object-fit: cover;
     display: flex;
     flex-flow: row wrap;
     height: 100vh;
