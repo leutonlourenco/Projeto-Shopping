@@ -17,6 +17,7 @@
 }
 body {
     background-color: red;  
+    overflow-x: hidden;
 }
 main {
     display: flex;
@@ -39,6 +40,7 @@ main {
     overflow-x: scroll;
 }
 .brands img {
+    width: 100%;
     margin-top: .3rem;
     height: 9rem;
 }
