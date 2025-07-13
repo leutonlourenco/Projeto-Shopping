@@ -16,8 +16,7 @@
     --font-padrão: "Poppins", sans-serif;
 }
 body {
-    background-color: red;
-    overflow-x: hidden;
+    background-color: red;  
 }
 main {
     display: flex;
@@ -25,17 +24,18 @@ main {
     background-color: black;
     margin: auto;
     height: 100%;
+    width: 100%;
 }
 /*BRANDS*/
 .brands {
+    width: 100%;
     display: flex;
     background-color: var(--cor01);
     height: 4rem;
-    width: 100%;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 4rem;
-    overflow: hidden;
+    overflow-y: hidden;
     overflow-x: scroll;
 }
 .brands img {
@@ -95,7 +95,7 @@ main {
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.sale_text-button {/*BOTÃO COMPRAR*/
+.sale_button {
     background-color: var(--cor03);
     color: var(--cor02);
     padding: 0.8rem;
@@ -104,6 +104,8 @@ main {
     width: 12.6rem;
     border-radius: 5px;
     font-size: 1.7rem;
+    font-family: var(--font-padrão);
+    text-decoration: none;
 }
 .sale_img {
     width: 100%;
@@ -123,10 +125,10 @@ main {
 
 /*YOUNG*/
 .young {
+    width: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
     background-color: #FFFFFF;
     font-family: var(--font-padrão);
 }
@@ -138,7 +140,7 @@ main {
     font-family: var(--font-padrão); 
 }
 
-.young_card { /*1° IMAGEM*/
+.young_card {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -160,6 +162,11 @@ main {
     font-size: 15px;
     line-height: 0px;
     letter-spacing: -4%;
+    color: #7F7F7F;
+    text-decoration: none;
+}
+.young_text a {
+    text-decoration: none;
     color: #7F7F7F;
 }
 /*DESCRIÇÃO DAS IMAGENS, FIM*/
