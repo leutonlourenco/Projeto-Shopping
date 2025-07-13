@@ -36,8 +36,8 @@ main {
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 4rem;
-    overflow-y: hidden;
-    overflow-x: scroll;
+    /*overflow-y: hidden;
+    overflow-x: scroll;*/
 }
 .brands img {
     width: 100%;
