@@ -101,10 +101,10 @@ main {
     padding: 0.8rem;
     padding-left: 2rem;
     font-weight: normal;
-    width: 12.6rem;
+    width: 10rem;
     border: solid black;
     border-radius: 5px;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     font-family: var(--font-padrão);
     text-decoration: none;
     cursor: pointer;
