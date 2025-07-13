@@ -12,15 +12,15 @@
       flex-flow: row nowrap;
       height: 600px;
    }
-   div.box-1 {
+   .sale-text {
       width: 40vw;
       height: 473px;
    }
-   div.box-1 img {
+   .sale_img img {
       height: 490px;
       margin-bottom: 40px;
    }
-   div.box-2 {
+   .sale_img {
       height: 473px;
       width: 55vw;
    }
@@ -34,19 +34,13 @@
       background-color: aquamarine;
       gap: 20px;
    }
-   .y-titulo {
+   .young_title {
       margin-bottom: 500px;
    }
    div.y-one {
       width: 40vw;
       margin-top: 200px;
       margin-left: -380px;
-      margin-bottom: 160px;
-   }
-   div.y-two {
-      width: 40vw;
-      margin-top: 200px;
-      margin-right: -40px;
       margin-bottom: 160px;
    }
    .young img {
