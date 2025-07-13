@@ -18,24 +18,14 @@
       background-color: var(--cor05);
    }
    .sale_img-model {
-      margin-top: 10rem;
+      margin-top: 7.6rem;
       height: 48rem;
    }
    .young {
       display: flex;
-      flex-direction: column;
-      background-color: aquamarine;
-      gap: 4rem;
-   }
-   .young_title {
-      display: inline-block;
-      text-align: justify;
-      background-color: black;
-   }
-   .young_card {
-
-      width: 40vw;
-      margin-top: 20rem;
+      flex-direction: row;
+      background-color:aquamarine;
+      flex-shrink: 1;
    }
    .young img {
       height: 15rem;

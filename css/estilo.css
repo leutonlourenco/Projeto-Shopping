@@ -133,9 +133,11 @@ main {
 .young_title {
     font-size: 2.4rem;
     font-weight: bolder;
+    margin: auto;
     margin-top: 5rem;
     margin-bottom: 2rem;
     font-family: var(--font-padrão); 
+    
 }
 
 .young_card {
