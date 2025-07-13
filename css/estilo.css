@@ -16,9 +16,8 @@
     --font-padrão: "Poppins", sans-serif;
 }
 body {
-    height: 100%;
-    width: 100%;
     background-color: red;
+    overflow-x: hidden;
 }
 main {
     display: flex;
@@ -26,7 +25,7 @@ main {
     background-color: black;
     margin: auto;
     height: 100%;
-    width: 130%;
+    width: 100%;
 }
 /*BRANDS*/
 .brands {
