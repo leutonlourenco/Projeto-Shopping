@@ -1,50 +1,56 @@
 
 
-@media screen and (min-width:705px) and (max-width: 990px){
+@media screen and (min-width:705px) and (max-width: 1200px){
    main {
-    width: 100vw;
-    display: flex;
-    flex-flow: row wrap;
+      width: 95vw;
+      margin: auto;
+      display: flex;
+      flex-flow: row wrap;
    }
-   .marcas {
-    
+   .sale {
+      display: flex;
+      flex-flow: row nowrap;
+      height: 600px;
    }
-   .promocao {
-    display: flex;
-    flex-flow: row nowrap;
+   div.box-1 {
+      width: 40vw;
+      height: 473px;
    }
-   div.partI {
-    width: 50vw;
-    height: 420px;
+   div.box-1 img {
+      height: 490px;
+      margin-bottom: 40px;
    }
-   div.parI img {
-    height: 490px;
-    margin-bottom: 40px;
-   }
-   div.partII {
-    width: 50vw;
-   }
-   .y-titulo {
-    margin-left: 80px;
-    width: 50vw;
+   div.box-2 {
+      height: 473px;
+      width: 55vw;
    }
    .young {
-    display: flex;
-    flex-flow: row nowrap;
-    justify-content: center;
+      display: flex;
+      flex-flow: row nowrap;
+      height: 70vh;
+      width: 95vw;
+      justify-content: center;
+      align-items: center;
+      background-color: aquamarine;
+      gap: 20px;
+   }
+   .y-titulo {
+      margin-bottom: 500px;
    }
    div.y-one {
-    width: 35vw;
-    margin-right: 120px;
-    margin-left: -15px;
+      width: 40vw;
+      margin-top: 200px;
+      margin-left: -380px;
+      margin-bottom: 160px;
    }
    div.y-two {
-    display: flex;
-    margin-top: 161px;
-    width: 35vw;
+      width: 40vw;
+      margin-top: 200px;
+      margin-right: -40px;
+      margin-bottom: 160px;
    }
    .young img {
-    height: 250px;
+      height: 240px;
    }
 }
 @media screen and (min-width: 1020px) {

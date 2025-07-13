@@ -1,7 +1,7 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Pirata+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
 
-/*SMARTPHONE*/
+/*TELA P/ SMARTPHONE*/
 * {
     margin: 0px;
     padding: 0px;
@@ -14,168 +14,150 @@
     --cor04: #C2C8DA;
     --cor05: #F9DF56;
     --font-padrão: "Poppins", sans-serif;
-    
+    overflow-x: hidden;
 }
-body {
-    font-family: var(--font-padrão);
-    background-color: var(--cor02);
-    
-}
-.main {
+
+main {
     display: flex;
     flex-flow: row wrap;
     background-color: var(--cor02);
     height: 100vh;
     width: 100vw;
 }
-/*MARCAS INÍCIO*/
-.marcas {
+/*LOGO*/
+.brands {
     display: flex;
     background-color: var(--cor01);
-    height: 60px;
-    width: 1010vw;
+    height: 4rem;
+    width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    margin-bottom: 60px;
+    margin-bottom: 4rem;
     overflow: hidden;
     overflow-x: scroll;
 }
-.marcas img {
-    margin-top: 5px;
-    margin-right: -30px;
-    height: 160px;
+.brands img {
+    margin-top: .3rem;
+    height: 10rem;
 }
+/*LOGO*/
 
-/*MARCAS FIM*/
 
-
-/*PROMOÇÃO INÍCIO*/
-.promocao {
+/*SALE*/
+.sale {
     display: flex;
     flex-direction: column-reverse;
+    background-color: aqua;
 }
-div.partII {
+.sale_text {
     display: flex;
     flex-direction: column;
-    height: 420px;
-    width: 100vw;
     align-items: center;
     background-color: var(--cor05);
-    padding-left: 70px;
 }
-/*#F9DF56;*/
 
-div.partII .p-0 {/*IMAGEM BRANCA*/
+.sale_text > p {
+    text-align: justify;
+    font-family: var(--font-padrão);
+}
+.sale_text-0 {/*IMAGEM BRANCA*/
     background-image: url('../imagens/Rectangle\ 25.png');
     background-repeat: no-repeat;
-    width: 210px;
-    height: 70px;
-    padding-top: 10px;
-    padding-left: 10px;
+    width: 12.7rem;
+    height: 4.5rem;
+    font-size: 2.6rem;
+    padding: 0.8rem;
+    margin-top: 2rem;
     font-weight: 900;
 }
-div.partII p {
-    font-size: 45px;
-    margin-top: 25px;
-    margin-left: -70px;
-    text-align: justify;
-}
-
-div.partII .p-1 {
-    margin-top: 0px;
-    margin-bottom: -10px;
-    font-size: 45px;
+.sale_text-1 {
+    margin-bottom: 1rem;
+    font-size: 2.6rem;
     font-weight: 900;
-    text-align: justify;
 }
-div.partII .p-2 {
-    font-size: 18px;
+.sale_text-2 {
+    font-size: 1.1rem;
     font-weight: 500;
-    line-height: 25px;
-    margin-bottom: 5px;
+    margin-bottom: 0.5rem;
 }
-div.partII .p-3 {
-    font-size: 18px;
+.sale_text-3 {
+    font-size: 1.1rem;
     font-weight: 700;
-    margin-top: 15px;
+    margin-top: 1rem;
 }
-div.partII .p-4 {
-    font-size: 18px;
+.sale_text-4 {
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
-    margin-top: 0px;
+    margin-bottom: 2rem;
 }
-div.partII .p-comprar {/*BOTÃO COMPRAR*/
+.sale_text-button {/*BOTÃO COMPRAR*/
     background-color: var(--cor03);
     color: var(--cor02);
-    padding: 12px;
-    padding-left: 32px;
+    padding: 0.8rem;
+    padding-left: 2rem;
     font-weight: normal;
-    width: 200px;
+    width: 12.6rem;
     border-radius: 5px;
-    font-size: 27px;
-    margin-left: -70px;
+    font-size: 1.7rem;
 }
-div.partI {
+.sale_img {
     display: flex;
     justify-content: center;
-    height: 400px;
+    align-items: center;
+    height: 75vh;
     width: 100vw;
     background-color: #F9DF56;
 }
-div.partI img {/*IMAGEM MODELO*/
-    height: 414px;
+.sale_img-model {
+    margin-top: 2.7rem;
+    margin-right: 2rem;
+    height: 38rem;
 }
-/*PROMOÇÃO FIM*/
+/*SALE*/
 
 
-
-
-/*SECTION YOUNG*/
-.y-titulo { /*TÍTULO DA SECTION PROMOÇÃO*/
-    font-size: 34px;
-    font-weight: bolder;
-    margin: 80px 0px 30px 0px;
-    
-}
+/*YOUNG*/
 .young {
     display: flex;
-    height: 1000px;
     width: 100vw;
     flex-direction: column;
-    margin-bottom: 100px;
+    text-align: center;
     background-color: var(--cor02);
+    font-family: var(--font-padrão);
+}
+.young_title {
+    font-size: 2.3rem;
+    font-weight: bolder;
+    margin-top: 5rem;
+    margin-bottom: 2rem;
+    font-family: var(--font-padrão); 
 }
 
-div.y-one { /*1° IMAGEM*/
+.young_card { /*1° IMAGEM*/
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-div.y-two { /*2° IMAGEM*/
-    display: flex;
-    flex-direction: column;
-    margin-top: 40px;
-    align-items: center;
+    margin-bottom: 3rem;
+    margin-right: 1rem;
 }
 .young img {
-    height: 240px;
+    height: 16rem;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
-.young .y-descricao {
+.young_description {
     font-size: 18px;
     font-weight: bolder;
     line-height: 30px;
     letter-spacing: -4%;
     margin: 15px 0px;
 }
-.young .y-texto {
+.young_text {
     font-size: 15px;
     line-height: 0px;
     letter-spacing: -4%;
     color: #7F7F7F;
 }
 /*DESCRIÇÃO DAS IMAGENS, FIM*/
-/*SECTION YOUNG*/
+/*YOUNG*/
 
 
