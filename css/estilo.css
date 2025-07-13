@@ -102,10 +102,12 @@ main {
     padding-left: 2rem;
     font-weight: normal;
     width: 12.6rem;
+    border: solid black;
     border-radius: 5px;
     font-size: 1.7rem;
     font-family: var(--font-padrão);
     text-decoration: none;
+    cursor: pointer;
 }
 .sale_img {
     width: 100%;
