@@ -29,7 +29,7 @@ main {
 }
 /*BRANDS*/
 .brands {
-    width: 100%;
+    width: 110%;
     display: flex;
     background-color: var(--cor01);
     height: 4rem;
