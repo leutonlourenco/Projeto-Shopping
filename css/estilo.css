@@ -21,12 +21,12 @@ body {
 main {
     display: flex;
     flex-flow: row wrap;
-    height: 100dvh;
-    min-width: 135vw;
+    height: 100vh;
+    min-width: 100vw;
 }
 /*BRANDS*/
 .brands {
-    width: 135vw;
+    width: 100vw;
     display: flex;
     background-color: var(--cor01);
     height: 4rem;
@@ -48,11 +48,11 @@ main {
     display: flex;
     flex-direction: column-reverse;
     background-color: var(--cor05);
-    min-width: 135vw;
+    width: 100vw;
 }
 .sale_text {
     display: flex;
-    min-width: 130vw;
+    width: 100vw;
     flex-direction: column;
     align-items: center;
     background-color: var(--cor05);
@@ -108,24 +108,22 @@ main {
     cursor: pointer;
 }
 .sale_img {
-    min-width: 135vw;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 66vh;
     background-color: #F9DF56;
+    height: 26rem;
 }
 .sale_img-model {
-    margin-top: 2.7rem;
-    margin-right: 2rem;
-    height: 40rem;
+    margin-top: 2rem;
+    height: 38rem;
 }
 /*SALE*/
 
 
 /*YOUNG*/
 .young {
-    min-width: 135vw;
+    min-width: 100vw;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -141,7 +139,7 @@ main {
 }
 
 .young_card {
-    min-width: 135vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     margin-bottom: 3rem;

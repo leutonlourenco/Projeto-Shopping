@@ -1,50 +1,44 @@
 
 
 @media screen and (min-width:705px) and (max-width: 1200px){
-   main {
-      width: 95vw;
-      margin: auto;
-      display: flex;
-      flex-flow: row wrap;
-   }
    .sale {
       display: flex;
-      flex-flow: row nowrap;
-      height: 600px;
+      flex-direction: row;
+      height: 32rem;
    }
-   .sale-text {
-      width: 40vw;
-      height: 473px;
-   }
-   .sale_img img {
-      height: 490px;
-      margin-bottom: 40px;
+   .sale_text {
+      width: 55vw;
    }
    .sale_img {
-      height: 473px;
-      width: 55vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-left: 1.5rem;
+      width: 45vw;
+      background-color: var(--cor05);
+   }
+   .sale_img-model {
+      margin-top: 10rem;
+      height: 48rem;
    }
    .young {
       display: flex;
-      flex-flow: row nowrap;
-      height: 70vh;
-      width: 95vw;
-      justify-content: center;
-      align-items: center;
+      flex-direction: column;
       background-color: aquamarine;
-      gap: 20px;
+      gap: 4rem;
    }
    .young_title {
-      margin-bottom: 500px;
+      display: inline-block;
+      text-align: justify;
+      background-color: black;
    }
-   div.y-one {
+   .young_card {
+
       width: 40vw;
-      margin-top: 200px;
-      margin-left: -380px;
-      margin-bottom: 160px;
+      margin-top: 20rem;
    }
    .young img {
-      height: 240px;
+      height: 15rem;
    }
 }
 @media screen and (min-width: 1020px) {
