@@ -14,6 +14,8 @@
     --cor04: #C2C8DA;
     --cor05: #F9DF56;
     --font-padrão: "Poppins", sans-serif;
+}
+body {
     overflow-x: hidden;
 }
 
@@ -29,7 +31,7 @@ main {
     display: flex;
     background-color: var(--cor01);
     height: 4rem;
-    width: 100%;
+    width: 98vw;
     align-items: center;
     justify-content: space-evenly;
     margin-bottom: 4rem;
@@ -48,8 +50,10 @@ main {
     display: flex;
     flex-direction: column-reverse;
     background-color: aqua;
+    width: 98vw;
 }
 .sale_text {
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -106,7 +110,7 @@ main {
     justify-content: center;
     align-items: center;
     height: 75vh;
-    width: 100vw;
+    width: 98vw;
     background-color: #F9DF56;
 }
 .sale_img-model {
@@ -120,7 +124,7 @@ main {
 /*YOUNG*/
 .young {
     display: flex;
-    width: 100vw;
+    width: 98vw;
     flex-direction: column;
     text-align: center;
     background-color: var(--cor02);
@@ -137,6 +141,7 @@ main {
 .young_card { /*1° IMAGEM*/
     display: flex;
     flex-direction: column;
+    width: 98vw;
     margin-bottom: 3rem;
     margin-right: 1rem;
 }
