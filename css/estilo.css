@@ -164,7 +164,7 @@ html, body {
 .join {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
     background-color: var(--cor05);
     margin: 5rem 0;
     height: 22rem;
@@ -183,11 +183,11 @@ html, body {
 }
 .join_button {
     display: flex;
-    width: 100%;
+    width: 95%;
 }
 input {
     height: 3rem;
-    width: 100vw;
+    width: 90vw;
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -198,9 +198,9 @@ input {
     font-size: 1.2rem;
     font-weight: 400;
     height: 2.5rem;
-    width: 14vh;
+    width: 5rem;
     text-transform: uppercase;
-    margin-top: .2rem;
+    margin-top: .25rem;
     margin-left: -5.7rem;
     border: 1px solid transparent;
     border-radius: 5px;
