@@ -160,16 +160,33 @@ html, body {
 /*YOUNG*/
 
 /*JOIN*/
-.join_card {
+.join {
     background-color: var(--cor01);
     margin: 10rem 0;
     height: 25rem;
     width: 100%;
     padding: 2.5rem;
-    text-transform: uppercase;
     color: var(--cor02);
+    position: relative;
+}
+.join_text {
     font-size: 1.8rem;
     font-weight: 700;
+    margin: 1rem;
+    text-transform: uppercase;
+}
+.join_text-02 {
+    margin: 1rem;
+}
+.join_button, input {
+    height: 3rem;
+    width: 80vw;
+    padding: 1rem;
+    border: 1px solid transparent;
+    border-radius: 10px;
+} 
+.button {
+    position: absolute;
 }
 
 
