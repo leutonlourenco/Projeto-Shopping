@@ -165,39 +165,44 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--cor01);
-    margin: 10rem 0;
-    height: 25rem;
-    width: 100%;
+    background-color: var(--cor05);
+    margin: 5rem 0;
+    height: 22rem;
     padding: 2.5rem;
-    color: var(--cor02);
+    color: var(--cor05);
 }
 .join_text {
     font-size: 1.8rem;
     font-weight: 700;
-    margin: 1rem;
+    color: var(--cor02);
     text-transform: uppercase;
 }
 .join_text-02 {
+    color: var(--cor02);
     margin: 1rem;
 }
-.join_button, input {
+.join_button {
     display: flex;
-    flex: 1;
+}
+input {
     height: 3rem;
-    width: 80vw;
+    width: 60vw;
     padding: 1rem;
     border: 1px solid transparent;
-    border-radius: 10px;
-} 
-.button {
+    border-radius: 5px;
+}
+.cta-button-02 {
     background-color: var(--cor03);
     color: var(--cor02);
+    font-size: 1.2rem;
+    font-weight: 400;
     height: 2.5rem;
-    width: 20vh;
+    width: 16vh;
+    text-transform: uppercase;
     margin-top: .2rem;
+    margin-left: -5.9rem;
     border: 1px solid transparent;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
