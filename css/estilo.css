@@ -186,7 +186,7 @@ html, body {
 }
 input {
     height: 3rem;
-    width: 60vw;
+    width: 80vw;
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 5px;
@@ -197,7 +197,7 @@ input {
     font-size: 1.2rem;
     font-weight: 400;
     height: 2.5rem;
-    width: 16vh;
+    width:10vh;
     text-transform: uppercase;
     margin-top: .2rem;
     margin-left: -5.9rem;
