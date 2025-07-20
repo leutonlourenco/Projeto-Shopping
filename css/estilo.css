@@ -180,13 +180,22 @@ html, body {
 }
 .join_button, input {
     height: 3rem;
-    width: 80vw;
+    width: 78vw;
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
 } 
 .button {
+    background-color: var(--cor03);
+    color: var(--cor02);
     position: absolute;
+    height: 2rem;
+    width: 20%;
+    right: 10%;
+    top: 73%;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
 }
 
 
