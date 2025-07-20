@@ -21,12 +21,7 @@ html, body {
     overflow-x: hidden;
     min-width: 100%;
     height: 100vh;
-}
-main {
-    display: flex;
-    flex-flow: row wrap;
-    height: 100vh;
-    min-width: 100%;
+    text-align: center;
 }
 /*BRANDS*/
 .brands {
@@ -42,7 +37,7 @@ main {
 }
 .brands img {
     margin-top: .3rem;
-    height: 7rem;
+    height: 8rem;
 }
 /*BRANDS*/
 
@@ -60,42 +55,41 @@ main {
     align-items: center;
     background-color: var(--cor05);
 }
-
 .sale_text > p {
     text-align: justify;
 }
-.sale_text-0 {/*IMAGEM BRANCA*/
+.sale_text-big {/*IMAGEM BRANCA*/
     background-image: url('../imagens/Rectangle\ 25.png');
     background-repeat: no-repeat;
-    width: 12rem;
-    height: 4rem;
-    font-size: 2.4rem;
+    width: 13rem;
+    height: 4.2rem;
+    font-size: 2.7rem;
     padding: 0.7rem;
     margin-top: 2rem;
     font-weight: 900;
 }
-.sale_text-1 {
+.sale_text-big-02 {
     margin-bottom: 1rem;
-    font-size: 2.4rem;
+    font-size: 2.7rem;
     font-weight: 900;
 }
-.sale_text-2 {
-    font-size: 1rem;
+.sale_text-small {
+    font-size: 1.1rem;
     font-weight: 500;
     margin-bottom: 0.5rem;
 }
-.sale_text-3 {
-    font-size: 1rem;
+.sale_text-small-02 {
+    font-size: 1.1rem;
     font-weight: 700;
     margin-top: 1rem;
 }
-.sale_text-4 {
-    font-size: 1rem;
+.sale_text-small-03 {
+    font-size: 1.1rem;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 2rem;
 }
-.sale_button {
+.cta-button {
     background-color: var(--cor03);
     color: var(--cor02);
     padding: 0.8rem;
@@ -107,39 +101,33 @@ main {
     font-size: 1.3rem;
     font-family: var(--font-padrão);
     text-decoration: none;
-    cursor: pointer;
 }
 .sale_img {
+    object-fit: cover;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #F9DF56;
-    height: 21rem;
-}
-.sale_img-model {
-    margin-top: 2rem;
-    height: 30rem;
+    height: 19.8rem;
+    margin-top: .8rem;
 }
 /*SALE*/
 
 
 /*YOUNG*/
-.young {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-color: #FFFFFF;
-}
 .young_title {
     font-size: 2.1rem;
     font-weight: bolder;
-    margin: auto;
     margin-top: 5rem;
-    margin-bottom: 2rem;
-    
 }
-
+.young {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    background-color: #FFFFFF;
+    margin-top: 1rem;
+}
 .young_card {
     display: flex;
     width: 100%;
@@ -148,24 +136,24 @@ main {
     align-items: center;
 }
 .young img {
-    height: 12rem;
+    height: 13rem;
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
-.young_description {
+.young_text {
     font-size: 18px;
     font-weight: bolder;
     line-height: 30px;
     letter-spacing: -4%;
     margin: 15px 0px;
 }
-.young_text {
+.young_text-02 {
     font-size: 15px;
     line-height: 0px;
     letter-spacing: -4%;
     color: #7F7F7F;
     text-decoration: none;
 }
-.young_text a {
+.young_text-02 a {
     text-decoration: none;
     color: #7F7F7F;
 }
