@@ -116,9 +116,10 @@ html, body {
 
 /*YOUNG*/
 .young_title {
-    font-size: 2.1rem;
+    font-size: 2.3rem;
     font-weight: bolder;
     margin-top: 5rem;
+    margin-bottom: 2rem;
 }
 .young {
     display: flex;
@@ -161,13 +162,15 @@ html, body {
 
 /*JOIN*/
 .join {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: var(--cor01);
     margin: 10rem 0;
     height: 25rem;
     width: 100%;
     padding: 2.5rem;
     color: var(--cor02);
-    position: relative;
 }
 .join_text {
     font-size: 1.8rem;
@@ -179,8 +182,10 @@ html, body {
     margin: 1rem;
 }
 .join_button, input {
+    display: flex;
+    flex: 1;
     height: 3rem;
-    width: 78vw;
+    width: 80vw;
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 10px;
@@ -188,11 +193,9 @@ html, body {
 .button {
     background-color: var(--cor03);
     color: var(--cor02);
-    position: absolute;
-    height: 2rem;
-    width: 20%;
-    right: 10%;
-    top: 73%;
+    height: 2.5rem;
+    width: 20vh;
+    margin-top: .2rem;
     border: 1px solid transparent;
     border-radius: 10px;
     cursor: pointer;
