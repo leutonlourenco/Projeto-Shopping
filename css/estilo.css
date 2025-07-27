@@ -166,7 +166,7 @@ html, body {
     flex-direction: column;
     justify-content: center;
     background-color: var(--cor05);
-    margin: 5rem 0;
+    margin: 5rem 0 0 0;
     height: 22rem;
     padding: 2.5rem;
     color: var(--cor05);
@@ -206,5 +206,28 @@ input {
     border-radius: 5px;
     cursor: pointer;
 }
+footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    width: 95%;
+    background-color: var(--cor03);
+    color: white;
+}
+footer a {
+    text-decoration: none;
+    color: var(--cor04);
+}
+.links_list {
+    list-style: none;
+    font-size: 1.1rem;
+    margin: 2.5rem;
+}
+.links_list > li {
+    margin: 0.5rem;
+}
+
+
 
 
