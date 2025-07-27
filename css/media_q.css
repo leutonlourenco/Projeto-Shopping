@@ -2,6 +2,7 @@
 
 @media screen and (min-width:705px) and (max-width: 1200px){
    .sale {
+      object-fit: contain;
       display: flex;
       flex-direction: row;
       height: 32rem;
@@ -10,6 +11,7 @@
       width: 55vw;
    }
    .sale_img {
+      object-fit: contain;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -18,14 +20,15 @@
       background-color: var(--cor05);
    }
    .sale_img-model {
+      object-fit: contain;
       margin-top: 7.6rem;
       height: 48rem;
    }
    .young {
       display: flex;
       flex-direction: row;
+      flex: 1;
       background-color:aquamarine;
-      flex-shrink: 1;
    }
    .young img {
       height: 15rem;
