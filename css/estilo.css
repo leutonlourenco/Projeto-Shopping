@@ -108,8 +108,12 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #F9DF56;
-    height: 19.8rem;
+    height: 26rem;
     margin-top: .8rem;
+}
+.sale_img img {
+    object-fit: cover;
+    height: 27.9rem;
 }
 /*SALE*/
 
@@ -206,6 +210,8 @@ input {
     border-radius: 5px;
     cursor: pointer;
 }
+
+/*FOOTER*/
 footer {
     display: flex;
     justify-content: center;
@@ -227,6 +233,21 @@ footer a {
 .links_list > li {
     margin: 0.5rem;
 }
+.links_media > h4 {
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+.links_media > ul {
+    display: flex;
+    margin: 2rem;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+}
+.links_media > p {
+    color: var(--cor04);
+}
+/*FOOTER*/
 
 
 
