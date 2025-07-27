@@ -93,7 +93,6 @@ html, body {
     background-color: var(--cor03);
     color: var(--cor02);
     padding: 0.8rem;
-    padding-left: 2rem;
     font-weight: normal;
     width: 10rem;
     border: solid black;

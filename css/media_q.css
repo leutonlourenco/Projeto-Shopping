@@ -14,40 +14,53 @@
       display: flex;
       object-fit: contain;
       flex: 1;
+      width: 100%;
       flex-direction: row;
-      height: 30rem;
    }
    .sale_text {
+      text-align: left;
       width: 55vw;
    }
-   .sale_text > p {
-      margin-right: 1rem;
-   }
    .sale_text-big {
-      font-size: 3rem;
-      width: 13rem;
-      height: 4.2rem;
-      font-size: 2.7rem;
-      padding: 0.7rem;
+      width: 17rem;
+      height: 5rem;
+      margin-top: 3rem;
+      margin-left: -4rem;
+      font-size: 3.5rem;
+      padding: 0.5rem;
+      text-align: left;
    }
    .sale_text-big-02 {
-      font-size: 3rem;
+      font-size: 3.5rem;
+      margin-left: -2.2rem;
    }
-   .sale_text-small, .sale_text-small-02, .sale_text-small-03 {
+   .sale_text-small{
       font-size: 1.15rem;
+      margin-left: 1rem;
+   }
+   .sale_text-small-02 {
+      font-size: 1.15rem;
+      margin-left: -8.1rem;
+   }
+   .sale_text-small-03 {
+      font-size: 1.15rem;
+      margin-left: -4.8rem;
+   }
+   .cta-button {
+      margin-top: -.5rem;
+      margin-left: -10.2rem;
    }
    .sale_img {
       object-fit: cover;
       display: flex;
       justify-content: center;
       align-items: center;
-      margin-left: 1.5rem;
+      height: 32rem;
       width: 45vw;
-      background-color: var(--cor05);
+      
    }
    .sale_img-model {
-      margin-top: 7.6rem;
-      height: 40rem;
+      height: 50.5rem;
    }
    /*SALE*/
 
@@ -65,7 +78,7 @@
 
    /*JOIN*/
    .join {
-      height: 15rem;
+      height: 18rem;
    }
    .join_button {
       width: 60%;
@@ -85,6 +98,7 @@
    .links {
       display: flex;
       gap: 2rem;
+      margin-bottom: 4rem;
    }
    .links_list {
       font-size: 1rem;
