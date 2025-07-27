@@ -180,10 +180,12 @@ html, body {
     font-weight: 700;
     color: var(--cor02);
     text-transform: uppercase;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.178)
 }
 .join_text-02 {
     color: var(--cor02);
     margin: 1rem;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.178)
 }
 .join_button {
     display: flex;
@@ -228,18 +230,20 @@ footer a {
 .links_list {
     list-style: none;
     font-size: 1.1rem;
-    margin: 2.5rem;
+    margin-top: 4rem;
+    margin-bottom: -1rem;
 }
 .links_list > li {
     margin: 0.5rem;
 }
 .links_media > h4 {
+    margin-top: 3rem;
     font-size: 2rem;
     text-transform: uppercase;
 }
 .links_media > ul {
     display: flex;
-    margin: 2rem 0 4rem 0;
+    margin: 2rem 0 5rem 0;
     justify-content: center;
     gap: 10px;
     list-style: none;
