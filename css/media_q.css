@@ -1,17 +1,43 @@
 
 
-@media screen and (min-width:705px) and (max-width: 1200px){
+@media screen and (min-width:705px){
+   .brands {
+      height: 3rem;
+   }
+   .brands img {
+      margin-top: .3rem;
+      height: 8rem;
+   }
+
+   /*SALE*/
    .sale {
-      object-fit: contain;
       display: flex;
+      object-fit: contain;
+      flex: 1;
       flex-direction: row;
-      height: 32rem;
+      height: 30rem;
    }
    .sale_text {
       width: 55vw;
    }
+   .sale_text > p {
+      margin-right: 1rem;
+   }
+   .sale_text-big {
+      font-size: 3rem;
+      width: 13rem;
+      height: 4.2rem;
+      font-size: 2.7rem;
+      padding: 0.7rem;
+   }
+   .sale_text-big-02 {
+      font-size: 3rem;
+   }
+   .sale_text-small, .sale_text-small-02, .sale_text-small-03 {
+      font-size: 1.15rem;
+   }
    .sale_img {
-      object-fit: contain;
+      object-fit: cover;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -20,20 +46,52 @@
       background-color: var(--cor05);
    }
    .sale_img-model {
-      object-fit: contain;
       margin-top: 7.6rem;
-      height: 48rem;
+      height: 40rem;
    }
+   /*SALE*/
+
+   /*YOUNG*/
    .young {
       display: flex;
       flex-direction: row;
-      flex: 1;
-      background-color:aquamarine;
+      width: 100%;
    }
-   .young img {
+   .young_card img {
+      width: 25rem;
+      flex: 1;
+   }
+   /*YOUNG*/
+
+   /*JOIN*/
+   .join {
       height: 15rem;
    }
-}
-@media screen and (min-width: 1020px) {
+   .join_button {
+      width: 60%;
+      margin: auto;
+   }
+   .cta-button-02 {
+      margin-left: -4rem;
+      width: 6rem;
+   }
+   /*JOIN*/
 
+   /*FOOTER*/
+   footer {
+      display: flex;
+      flex-flow: row wrap;
+   }
+   .links {
+      display: flex;
+      gap: 2rem;
+   }
+   .links_list {
+      font-size: 1rem;
+   }
+   .links_media {
+      margin-left: 3rem;
+   }
+   /*FOOTER*/
+   
 }
