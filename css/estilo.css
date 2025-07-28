@@ -107,9 +107,12 @@ html, body {
     justify-content: center;
     align-items: center;
     background-color: #F9DF56;
-    height: 19.7rem;
+    height: 24rem;
     margin-top: 1rem;
-    margin-right: 1rem;
+    
+}
+.sale_img img {
+    height: 24rem;
 }
 /*SALE*/
 
@@ -129,7 +132,14 @@ html, body {
     background-color: #FFFFFF;
     margin-top: 1rem;
 }
-.young_card {
+.young_card-01 {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-bottom: 4rem;
+    align-items: center;
+}
+.young_card-02 {
     display: flex;
     width: 100%;
     flex-direction: column;
