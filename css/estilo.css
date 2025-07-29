@@ -138,14 +138,14 @@ html, body {
 .young_card-01 {
     display: flex;
     flex-direction: column;
-    margin-left: 5.7rem;
+    margin-left: 3rem;
     margin-bottom: 4rem;
     align-items: center;
 }
 .young_card-02 {
     display: flex;
     flex-direction: column;
-    margin-right: 5.7rem;
+    margin-right: 3rem;
     margin-bottom: 4rem;
     align-items: center;
 }
@@ -181,14 +181,14 @@ html, body {
 }
 /*DESCRIÇÃO DAS IMAGENS, INÍCIO*/
 .young_text {
-    font-size: 18px;
+    font-size: 1.1rem;
     font-weight: bolder;
     line-height: 30px;
     letter-spacing: -4%;
-    margin: 15px 0px;
+    margin: 1rem 0rem;
 }
 .young_text-02 {
-    font-size: 15px;
+    font-size: 1rem;
     line-height: 0px;
     letter-spacing: -4%;
     color: #7F7F7F;
