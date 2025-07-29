@@ -26,31 +26,31 @@
       width: 18.2rem;
       height: 5.5rem;
       margin-top: 3rem;
-      margin-left: -5.5rem;
+      margin-left: -4.5rem;
       font-size: 4rem;
       padding: 0.4rem;
       text-align: left;
    }
    .sale_text-big-02 {
       font-size: 4rem;
-      margin-left: -2.2rem;
+      margin-left: -1.2rem;
    }
    .sale_text-small{
       font-size: 1.25rem;
-      margin-left: -1;
+      margin-left: 1rem;
    }
    .sale_text-small-02 {
       font-size: 1.25rem;
-      margin-left: -10rem;
+      margin-left: -9rem;
    }
    .sale_text-small-03 {
       font-size: 1.25rem;
-      margin-left: -6.5rem;
+      margin-left: -5.5rem;
    }
    .cta-button {
       width: 9rem;
       margin-top: -.5rem;
-      margin-left: -13.8rem;
+      margin-left: -12.8rem;
    }
    .sale_img {
       object-fit: cover;
