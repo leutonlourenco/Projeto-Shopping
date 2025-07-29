@@ -14,50 +14,51 @@
       display: flex;
       object-fit: contain;
       flex: 1;
+      justify-content: space-evenly;
       width: 100%;
       flex-direction: row;
    }
    .sale_text {
       flex-shrink: 1;
       text-align: left;
-      width: 60vw;
    }
    .sale_text-big {
-      width: 17rem;
-      height: 5rem;
+      width: 18.2rem;
+      height: 5.5rem;
       margin-top: 3rem;
-      margin-left: -4rem;
-      font-size: 3.5rem;
-      padding: 0.5rem;
+      margin-left: -7.5rem;
+      font-size: 4rem;
+      padding: 0.4rem;
       text-align: left;
    }
    .sale_text-big-02 {
-      font-size: 3.5rem;
+      font-size: 4rem;
       margin-left: -2.2rem;
    }
    .sale_text-small{
-      font-size: 1.15rem;
-      margin-left: 1rem;
+      font-size: 1.25rem;
+      margin-left: -4.7rem;
    }
    .sale_text-small-02 {
-      font-size: 1.15rem;
-      margin-left: -8.1rem;
+      font-size: 1.25rem;
+      margin-left: -12.2rem;
    }
    .sale_text-small-03 {
-      font-size: 1.15rem;
-      margin-left: -4.8rem;
+      font-size: 1.25rem;
+      margin-left: -10.3rem;
    }
    .cta-button {
+      width: 8.3rem;
       margin-top: -.5rem;
-      margin-left: -10.2rem;
+      margin-left: -16.4rem;
    }
    .sale_img {
       object-fit: cover;
       display: flex;
       margin-left: 7rem;
       height: 32rem;
-      width: 40vw;
       flex-shrink: 1;
+      margin-left: -0.5rem;
    }
    .sale_img img {
       margin-top: 1rem;
@@ -71,15 +72,11 @@
       flex-direction: row;
       justify-content: center;
       width: 100%;
-   }
-   .young_card-01 {
-      width: 40%;
-   }
-   .young_card-02 {
-      width: 40%;
+      gap: 10rem;
+      overflow-x: hidden;
    }
    .young img {
-      height: 17rem;
+      height: 18rem;
    }
    /*YOUNG*/
 
