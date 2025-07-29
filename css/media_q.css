@@ -32,14 +32,17 @@
       text-align: left;
    }
    .sale_text-big-02 {
+      margin-top: -1rem;
       font-size: 4rem;
       margin-left: -1.2rem;
    }
    .sale_text-small{
+      margin-top: -.8rem;
       font-size: 1.25rem;
       margin-left: 1rem;
    }
    .sale_text-small-02 {
+      margin-top: .7rem;
       font-size: 1.25rem;
       margin-left: -9rem;
    }
@@ -48,9 +51,9 @@
       margin-left: -5.5rem;
    }
    .cta-button {
-      width: 8.52rem;
+      width: 8.51rem;
       margin-top: -.5rem;
-      margin-left: -13.5rem;
+      margin-left: -13.7rem;
    }
    .sale_img {
       object-fit: cover;
