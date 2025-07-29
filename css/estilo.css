@@ -100,6 +100,7 @@ html, body {
     font-size: 1.3rem;
     font-family: var(--font-padrão);
     text-decoration: none;
+    text-transform: uppercase;
 }
 .sale_img {
     object-fit: cover;
